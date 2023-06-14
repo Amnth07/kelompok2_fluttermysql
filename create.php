@@ -13,5 +13,5 @@ if($result){
 }else{
     echo json_encode([
         'message' => 'Data failed to input'
-    ]);
+    ]);       
 }
