@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mysql/home.dart';
-import 'package:flutter_mysql/models/note.dart';
+import 'package:flutter_mysql/provider/note_provider.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
